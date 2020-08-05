@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.9.231 Kernel Configuration
+# Linux/arm64 4.9.232 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -667,6 +667,16 @@ CONFIG_NET=y
 CONFIG_COMPAT_NETLINK_MESSAGES=y
 CONFIG_NET_INGRESS=y
 CONFIG_NET_EGRESS=y
+
+
+#
+# Simple LMK
+#
+CONFIG_ANDROID_SIMPLE_LMK=y
+CONFIG_ANDROID_SIMPLE_LMK_AGGRESSION=2
+CONFIG_ANDROID_SIMPLE_LMK_MINFREE=100
+
+
 
 #
 # Networking options
